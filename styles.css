@@ -1,0 +1,55 @@
+body {
+    background-color: #2d2a32;
+    color: #e0c097; 
+    font-family: 'Cinzel', serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #806d56; 
+    color: #e0c097;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #a88c67; 
+    transform: scale(1.05);
+}
+
+#resultado {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
